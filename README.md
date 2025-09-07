@@ -1,1 +1,91 @@
-# HTML_web
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="i'm a web developer">
+    <title>Mohamed Khalid</title>
+</head>
+
+<body>
+    <header>
+        <img src="./WhatsApp Image 2025-08-03 at 17.02.03_d1d11d84.jpg" alt="my photo" width="300px" height="300px"
+            style="border-radius: 50%;">
+        <p><i>Web Developer</i></p>
+        <p> <span>My name is Mohamed Khalid</span>I'm a web developer with 2 years of experience in web development
+            field</p>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>age: 23</p>
+            <p>From: Egypt</p>
+            <p>email:mk8448473@gmail.com</p>
+            <p>phone: 01030847024</p>
+        </section>
+        <section>
+            <h2>education</h2>
+            <p>Bachelor of Computer Science in Mansoura University (2021 – 2025)</p>
+            <br>
+            <p> High School Diploma Science Section (2019 – 2021)</p>
+        </section>
+        <hr>
+        <section>
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+                <li>php</li>
+                <li>sql</li>
+                <li>laravel</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>My hobbies</h2>
+            <table border="1" width="30%">
+                <thead>
+                    <tr>
+                        <th>Num</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <th>Foot</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>reading</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>swimming</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>playing</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <hr>
+    <form action="https://formsubmit.co/mk8448473@gmail.com" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message...."></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html># HTML_web
